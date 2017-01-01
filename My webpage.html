@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<title> my webpage</title>
+		<h1>hello</h1>
+		<p>was up</p>
+		
+	</head>
+
+	<body>		
+	
+	<!--<p><a href="https://www.youtube.com/watch?v=cHHLHGNpCSA"><img src="Homer.png"><br>this is to a good video.</a></p> -->
+	
+	
+	
+	
+	
+	</body>
+
+ </html>
+ 
+ <html>
+    <body>
+ 	
+        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+        
+        <p>Donec sed ex sed quam dignissim commodo.</p>
+     
+    </body>
+</html>
+
+<html>
+    <body>
+    	<p><strong>This is some text.</strong></p>
+        <p><sub>This is some more text.</sub></p>
+        <p><del>This is even more text.</del></p>
+    </body>
+</html>
+
+	<ol>
+        	<li>Red</li>
+            <li>Yellow</li>
+            <li>Blue</li>
+        </ol>
+		
+		<html>
+	<title>Images</title>
+    	<body>
+    	<a img="face.png" hight="250" weight="250">
+    	</body>
+</html>
+
+<html>
+	<title>Images</title>
+    	<body>
+        	<img src="face.png" height="250" width="150">
+    	</body>
+</html>
+
+<html>
+    <head>
+	    <title>Forms</title>
+    </head>
+    <body>
+    	<form>
+        	<p>Name: <input type="text"></p>
+           		<p>Age: <input type="number"></p>
+        	<p>Favourite colour:
+            	<select>
+        			<option>red</option>
+            		<option>yellow</option>
+            		<option>green></option>
+             	</select>
+        	</p>
+        </form>
+    </body>
+</html>
+
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/coinflip.css">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+		<script src="jquery/jquery.min.js"></script>
+		<title>Jake Martin - Coinflip</title>
+	</head>
+	
+	<body>
+	<button id="click" type="button">Flip The Coin</button>
+	<div class="imgresult"><img id="result"></span></div>
+	<script>
+    document.getElementById('click').onclick = click;
+
+    var heads = 0;
+    var tails = 0;
+    var coins = {
+        heads: 'https://i.imgur.com/5hnDSWp.gif',
+        tails: 'https://i.imgur.com/b9eG7zO.gif',
+    }
+    function click() {  
+        var result = Math.floor(Math.random() * 2) == 0 ? 'heads' : 'tails';
+        flip(result)
+    };
+
+    function flip(coin) {
+        document.getElementById("result").setAttribute('src', coins[coin])
+    };
+	</script>
+	</body>
+</html>
+
+<!doctype html>
+<html>
+    <head>
+	    <title>Forms</title>
+    </head>
+    <body>
+    	<form>
+        	<p>Name:<input type ="text"></p> 
+			
+           		<p>Age: <input type="number"></p>
+        	<p>Favourite colour:
+            	<select>
+            		<option>blue</option>
+        			<option>red</option>
+            		<option>yellow</option>
+            		<option>green</option>
+             	</select>
+        	</p>
+        </form>
+    </body>
+</html>
+
+
+ 
